@@ -19,7 +19,7 @@ def process_args():
     '''
     parse arguments
     '''
-    parser = ArgumentParser(prog='Password Sniffer', description='A simple password sniffer available on Windows.')
+    parser = ArgumentParser(description='A simple password sniffer available on Windows.')
     parser.add_argument('-c', '--count', default=0, help='number of packets to capture. 0 means infinity.')
     parser.add_argument('-p', '--pcap', help='PCAP file to read packets from, instead of sniffing them.')
     parser.add_argument('-f', '--filter', dest='filter', help='BPF filter to apply.')
