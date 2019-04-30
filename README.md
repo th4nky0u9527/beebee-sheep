@@ -1,7 +1,7 @@
 # beebee-sheep
-This is a simple password sniffer based on scapy,
-Allowing user to custom the BPF filter and regex pattern.
-It may be useful in cooperation with arpspoofing tools.
+This is a simple password sniffer based on scapy,  
+Allowing user to custom the BPF filter and regex pattern.  
+It may be useful in cooperation with arpspoofing tools.  
 ## Requeirments
 * python3: scapy and colorama
 * Npcap for windows users
